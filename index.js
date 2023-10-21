@@ -10,7 +10,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, c => {
 
 	client.user.setPresence({
-		activities: [{ name: `Seongsu High School`, type: ActivityType.Competing }],
+		activities: [{ name: `성수고 탈옥 시도`, type: ActivityType.Playing }],
 		status: 'online',
 	});
 
