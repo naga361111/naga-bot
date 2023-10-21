@@ -11,7 +11,7 @@ client.once(Events.ClientReady, c => {
 
 	client.user.setPresence({
 		activities: [{ name: `Seongsu High School`, type: ActivityType.Playing }],
-		status: 'dnd',
+		status: 'online',
 	});
 
 	console.log(`Ready! Logged in as ${c.user.tag}`);
