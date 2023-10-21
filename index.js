@@ -24,6 +24,7 @@ for (const folder of commandFolders) {
 }
 
 client.once(Events.ClientReady, () => {
+	client.user.setActivity('성수고 탈옥', { type: Activity.Playing});
 	console.log('Ready!');
 });
 
